@@ -1,4 +1,4 @@
-/* Container for the entire page */
+
 .sign-in-page-container {
   display: flex;
   width: 100%;
@@ -6,7 +6,7 @@
   background-color: #f5f5f5;
 }
 
-/* Left Section */
+
 .left-section {
   width: 50%;
   height: 100%;
@@ -20,9 +20,9 @@
   margin-top: 0px;
 }
 
-/* First Container inside the left section */
+
 .container-one {
-   /* Moves the container to the right by 30px */
+   
   background: #f9f9f9;
   box-shadow: 0px 8px 20px 5px rgba(0, 0.1, 0.1, 0.1);
   border-radius: 15px;
@@ -31,7 +31,7 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-   /* Ensure the container is visible */
+  
   margin-top: -450px;
   margin-left: 0px;
   width: 447px;
@@ -43,7 +43,7 @@ gap: 0px;
 
 }
 
-/* Text Container inside the first container */
+
 .text-container {
   width: 100%;
   font-size: 16px;
@@ -56,24 +56,24 @@ gap: 0px;
 .text-image-wrapper {
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between the image and text */
+  gap: 10px;
 }
 
 .text-image {
-  width: 30px; /* Adjust the size of the image */
-  height: auto; /* Maintain the aspect ratio */
+  width: 30px; 
+  height: auto; 
 }
 
 
 .signin-button1 .signin-icon {
-  width: 20px; /* Set the size of the icon */
-  height: 20px; /* Set the size of the icon */
+  width: 20px; 
+  height: 20px; 
   margin-right: 10px;
-  margin-bottom: -5px; /* Space between the icon and text */
+  margin-bottom: -5px; 
 }
 
 
-/* Divider Line */
+
 .divider {
   width: 100%;
   height: 0;
@@ -82,7 +82,7 @@ gap: 0px;
   margin-bottom: 0px;
 }
 
-/* Stats Container */
+
 .stats-container {
   display: flex;
   justify-content: space-between;
@@ -91,7 +91,7 @@ gap: 0px;
   
 }
 
-/* Individual Stat Items */
+
 .stat-item {
   width: 30%;
   text-align: center;
@@ -112,11 +112,11 @@ margin-top: -25px;
 }
 
 .stat-item span {
-  font-weight: bold; /* Make the number bold */
+  font-weight: bold; 
   margin-top: 0px;
 }
 
-/* Right Section */
+
 .right-section {
   width: 50%;
   height: 100%;
@@ -134,7 +134,7 @@ margin-top: -25px;
   color: #333;
 }
 
-/* Form Styles */
+
 .sign-in-form {
   width: 100%;
   max-width: 300px;
@@ -160,7 +160,7 @@ margin-top: -25px;
   border-radius: 4px;
 }
 
-/* Button Styles */
+
 .btn-primary {
   background-color: #0073e6;
   color: #fff;
@@ -187,7 +187,7 @@ margin-top: -25px;
   background-color: #d3d3d3;
 }
 
-/* Additional Options */
+
 .additional-options {
   display: flex;
   gap: 16px;
@@ -206,15 +206,13 @@ margin-top: -25px;
 .privacy-policy a:hover {
   text-decoration: underline;
 }
-/* New Image Container at Bottom Left of Left Section */
+
 .image-container-left-bottom {
   position: absolute;
-    /* Align the image at the bottom */
-    ;
-    /* Align the image to the left */
+   
   width: 284px;
   height: 319px;
-  /* Adjust the opacity */
+  
   bottom: -100px;
 gap: 0px;
 left: -0px;
@@ -223,35 +221,33 @@ left: -0px;
 
 }
 
-/* Image inside the container */
+
 .image-container-left-bottom img {
   width: 70%;
   height: 70%;
   filter: grayscale(100%) brightness(40%);
-  object-fit: cover; /* Make sure the image covers the container area */
+  object-fit: cover; 
 }
-/* Prevent scrolling and fix the page */
+
 html, body {
   height: 100%;
   margin: 0;
-  overflow: hidden;  /* Disable scrolling */
-  position: fixed;   /* Fix the page in place */
-  width: 100%;       /* Ensure the body takes up the full width */
-}
-/* Allow scrolling in a specific container */
-.scrollable-container {
-  overflow: auto;
-  max-height: 500px; /* Set a height to allow scrolling */
+  overflow: hidden;  
+  position: fixed;  
+  width: 100%;      
 }
 
-/* Container for stats */
-/* Main Stats Container */
-/* Main Stats Container */
+.scrollable-container {
+  overflow: auto;
+  max-height: 500px;
+}
+
+
 .stats-container1 {
   display: flex;
-  justify-content: space-around; /* Space columns evenly */
-  align-items: flex-start; /* Align items at the top */
-  gap: 5px; /* Space between columns */
+  justify-content: space-around; 
+  align-items: flex-start; 
+  gap: 5px; 
   background: #f9f9f9;
   border-radius: 10px;
   padding:30px;
@@ -259,8 +255,7 @@ html, body {
   padding-top: 0px;
   box-shadow: 0px 4px 10px rgba(0, 0.1, 0.1, 0.1);
   width: 200%;
-  max-width: 200px; /* Adjust width as needed */
-  /* Center the container */
+  max-width: 200px;
   margin-right: -250px;
   margin-bottom: -390px;
   
@@ -268,19 +263,19 @@ html, body {
   
 }
 
-/* Individual Stat Column */
+
 .stat-column {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center-align items */
-  gap: 1px; /* Space between image and text */
+  flex-direction: column; 
+  align-items: center; 
+  gap: 1px; 
 }
 
-/* Text Styles */
+
 .stat-total {
   font-size: 25px;
   font-weight: bold;
-  color: #28a745; /* Green color */
+  color: #28a745;
   margin-top: 0px;
 }
 
@@ -295,24 +290,23 @@ html, body {
 
 /* Image Styles */
 .stat-image1 {
-  width: 30px; /* Adjust size as needed */
+  width: 30px; 
   height: 30px;
-  border-radius: 60%; /* Optional: make circular */
-  object-fit: cover; /* Ensure the image fits nicely */
+  border-radius: 60%; 
+  object-fit: cover; 
   margin-bottom: 30px;
 }
 .stat-image {
-  width: 30px; /* Adjust size as needed */
+  width: 30px;
   height: 30px;
-  border-radius: 60%; /* Optional: make circular */
-  object-fit: cover; /* Ensure the image fits nicely */
+  border-radius: 60%; 
+  object-fit: cover; 
   
   margin-bottom: 0px;
 }
 
 
-/* Right Section Container */
-/* Right Section Container */
+
 .right-section {
   display: flex;
   justify-content: center;
@@ -323,8 +317,8 @@ html, body {
 }
 
 .right-container {
-  width: 600px; /* Fixed width */
-  height: auto; /* Adjusted height */
+  width: 600px;
+  height: auto; 
   padding-top: 80px;
   padding-left: -50px;
   gap: 20px;
@@ -333,7 +327,7 @@ html, body {
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional for a soft shadow */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
   border-radius: 8px;
   margin-top: -50px;
   padding-bottom: 10px;
@@ -341,7 +335,7 @@ html, body {
   
 }
 
-/* Welcome Section */
+
 .welcome-container1 {
   display: flex;
   flex-direction: column;
@@ -354,22 +348,22 @@ html, body {
 
 .image-container1 {
   display: flex;
-  align-items: center;  /* Vertically align the content */
-  gap: 10px;  /* Space between the image and text */
-  margin-bottom: 0px;  /* Adjust as needed */
+  align-items: center;
+  gap: 10px;  
+  margin-bottom: 0px; 
 }
 
 .image-container1 img {
-  width: 50px;  /* Adjust image size as needed */
-  height: 50px;  /* Adjust image size as needed */
-  object-fit: contain;  /* Make sure the image maintains its aspect ratio */
+  width: 50px;  
+  height: 50px; 
+  object-fit: contain; 
 }
 
 .code {
   font-family: Satoshi;
 
-  text-decoration: none;  /* Remove any text decorations */
-  margin: 0;  /* Remove any default margin */
+  text-decoration: none;  
+  margin: 0;  
   
 font-size: 30px;
 font-weight: 400;
@@ -379,7 +373,7 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 
 }
-/* Heading */
+
 .welcome {
   font-size: 32px;
   text-align: left;
@@ -399,11 +393,11 @@ text-decoration-skip-ink: none;
 
 }
 
-/* Button Section */
+
 .button-container1 {
   display: flex;
   justify-content: space-between;
-  width: 300px; /* Adjust button container width */
+  width: 300px; 
   gap: 16px;
   margin-top: 0px;
   margin-left: -100px;
@@ -416,8 +410,8 @@ margin-top: -20px;
 }
 
 .btn-primary1 {
-  width: 446px; /* Adjust button width */
-  height: 57.59px; /* Adjust button height */
+  width: 446px; 
+  height: 57.59px; 
   border-radius: 8px;
   border: 1px solid #ccc;
   background-color: white;
@@ -443,19 +437,19 @@ margin-top: -20px;
 
 
 
-/* Sign-In Buttons Section */
+
 .signin-container1 {
   display: flex;
-  flex-direction: column; /* Align buttons vertically */
-  gap: 10px; /* Space between buttons */
-  /* Ensure buttons take up the full width of the container */
+  flex-direction: column;
+  gap: 10px; 
+ 
   margin-top: -10px;
   height: 200px;
 }
 
 .signin-button1 {
-  width: 100%; /* Make each button take full width */
-  height: 50px; /* Adjust button height */
+  width: 100%; 
+  height: 50px; 
   border-radius: 8px;
   border: 1px solid #ccc;
   background-color: #fff;
@@ -477,13 +471,8 @@ margin-top: -20px;
 
  
 }
-/* Default button styles */
 
 
-/* Active button styles */
-
-
-/* Main button active styles */
 .btn-primary1.active {
   background-color: rgb(0, 0, 255);
   color: white;
@@ -494,7 +483,7 @@ margin-top: -20px;
   background-color: #f5f5f5;
 }
 
-/* Optional Hover Effects for Sign-In Buttons */
+
 .signin-button1:focus {
   outline: none;
   box-shadow: 0px 0px 4px rgba(0, 123, 255, 0.5);
@@ -521,47 +510,41 @@ margin-top: -20px;
   text-decoration: underline;
 }
 .sign-in-footer {
-  margin-top: 20px; /* Adds space between the sign-in container and the footer */
+  margin-top: 20px; 
   text-align: center;
-  margin-top: -20px; /* Optional: centers the text */
+  margin-top: -20px; 
 }
 
-/* Base styles for desktop remain the same */
 
-/* Mobile-specific styles */
-/* Base styles for desktop remain the same */
-
-/* Mobile-specific styles */
 @media (max-width: 768px) {
-  /* Hide the left section */
+ 
   .left-section {
     display: none;
   }
 
-  /* Make the right section take full width */
+ 
   .right-section {
     width: 100%;
-    height: 100vh; /* Full height */
-    padding: 16px; /* Adjust padding for better mobile view */
+    height: 100vh;
+    padding: 16px; 
   }
 
-  /* Adjust text and button sizes for smaller screens */
   .right-section h1 {
-    font-size: 20px; /* Smaller heading */
+    font-size: 20px; 
   }
 
   .btn-primary1, .signin-button1 {
-    font-size: 14px; /* Smaller button text */
-    padding: 8px,15px; /* Adjust button padding */
+    font-size: 14px; 
+    padding: 8px,15px; 
   }
 
   .signin-icon {
-    width: 16px; /* Adjust icon size */
+    width: 16px; 
     height: 16px;
-    margin-right: 8px; /* Adjust spacing */
+    margin-right: 8px; 
   }
 
-  /* Reduce gaps between elements */
+ 
   .button-container1, .signin-container1 {
     gap: 16px;
     margin-right: -30px;
