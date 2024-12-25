@@ -31,14 +31,14 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  opacity: 1; /* Ensure the container is visible */
+   /* Ensure the container is visible */
   margin-top: -450px;
   margin-left: 0px;
   width: 447px;
 height: 170px;
 
 gap: 0px;
-opacity: 0px;
+
 
 
 }
@@ -99,12 +99,12 @@ opacity: 0px;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  width: Hug (123px)px;
-height: Hug (47px)px;
+  width: 123px;
+height: 47px;
 top: 100px;
-left: 20px;
+left: -10px;
 gap: 0px;
-opacity: 0px;
+
 margin-bottom: 0px;
 margin-top: -25px;
 
@@ -214,8 +214,8 @@ margin-top: -25px;
     /* Align the image to the left */
   width: 284px;
   height: 319px;
-  opacity: 0.4; /* Adjust the opacity */
-  bottom: -90px;
+  /* Adjust the opacity */
+  bottom: -100px;
 gap: 0px;
 left: -0px;
 
@@ -406,11 +406,10 @@ text-decoration-skip-ink: none;
   width: 300px; /* Adjust button container width */
   gap: 16px;
   margin-top: 0px;
-  margin-left: -200px;
-  width: Fill (624px)px;
-height: Hug (60px)px;
-gap: var(--spacing-xxs);
-border-radius: var(--radius-md);
+  margin-left: -100px;
+  width: 400px;
+height: 60px;
+
 border: 1px 0px 0px 0px;
 opacity: 0px;
 margin-top: -20px;
